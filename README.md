@@ -36,28 +36,26 @@ git clone https://github.com/your-username/restaurant-onboarding-app.git
 ```bash
 cd restaurant-onboarding-app
 ```
-
-Install the dependencies for the server-side:
-bash
-Copy code
+3. Install the dependencies for the server-side:
+```bash
 npm install
-Create a MySQL database and update the connection details in server.js.
-
+```
+4. Create a MySQL database and update the connection details in server.js.
 Start the server:
 
-bash
-Copy code
+```bash
 npm start
-Open another terminal window, navigate to the client-side directory:
-bash
-Copy code
+```
+5. Open another terminal window, navigate to the client-side directory:
+```bash
 cd client
-Install the dependencies for the client-side:
-bash
-Copy code
+```
+6. Install the dependencies for the client-side:
+```bash
 npm install
-Start the client:
-bash
-Copy code
+```
+7. Start the client:
+```bash
 npm start
-Open your web browser and visit http://localhost:3000 to access the application.
+```
+8. Open your web browser and visit http://localhost:3000 to access the application.
