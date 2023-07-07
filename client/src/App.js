@@ -29,6 +29,20 @@ const App = () => {
         return;
       }
     }
+     // Pincode validation
+     const pincodeRegex = /^\d{6}$/;
+     if (!pincodeRegex.test(formData.pincode)) {
+       alert('Pincode must have 6 digits');
+       return;
+     }
+      // Phone number validation
+      const phoneNumberRegex = /^\d{10}$/;
+      if (!phoneNumberRegex.test(formData.phoneNumber)) {
+        alert('Phone number must have 10 digits');
+        return;
+      }
+  
+     
     try {
       await axios.post('http://localhost:5000/restaurants', formData);
       alert('Restaurant data submitted successfully.');
