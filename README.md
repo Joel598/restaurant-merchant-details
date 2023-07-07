@@ -19,9 +19,9 @@ This is a web application built with React.js, Node.js, and SQL that allows a fo
 - HTML
 - CSS
 
-## Getting Started
+# Getting Started
 
-# Connecting to MYSQL database
+## Connecting to MYSQL database
 
 1. Install Xampp sever:
 phpMyAdmin: Install Xampp to manage your MySQL database through phpMyAdmin.
@@ -47,7 +47,7 @@ CREATE TABLE restaurants (
 ```
 
 
-# To run this application locally, follow these steps:
+## To run this application locally, follow these steps:
 
 1. Clone the repository:
 
