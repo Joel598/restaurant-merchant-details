@@ -21,7 +21,7 @@ This is a web application built with React.js, Node.js, and SQL that allows a fo
 
 ## Getting Started
 
-#Connecting to MYSQL database
+# Connecting to MYSQL database
 
 1. Install Xampp sever:
 phpMyAdmin: Install Xampp to manage your MySQL database through phpMyAdmin.
@@ -35,11 +35,19 @@ CREATE DATABASE merchant;
 ```
 3. Create Table for the above database from phpMyAdmin or use given SQL code below
 ```
-
+CREATE TABLE restaurants (
+  restaurantName varchar(30) NOT NULL,
+  contactName varchar(50) NOT NULL,
+  pincode int(6) NOT NULL,
+  location varchar(20) NOT NULL,
+  website varchar(20) NOT NULL,
+  phoneNumber varchar(100) NOT NULL,
+  avgDailyTransactions int(10)
+);
 ```
 
 
-#To run this application locally, follow these steps:
+# To run this application locally, follow these steps:
 
 1. Clone the repository:
 
