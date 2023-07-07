@@ -21,7 +21,25 @@ This is a web application built with React.js, Node.js, and SQL that allows a fo
 
 ## Getting Started
 
-To run this application locally, follow these steps:
+#Connecting to MYSQL database
+
+1. Install Xampp sever:
+phpMyAdmin: Install Xampp to manage your MySQL database through phpMyAdmin.
+You can download phpMyAdmin from the official website: https://www.apachefriends.org/download.html
+Open the Xampp control panel and start Apache and MYSQL.
+
+2. Create a MySQL database from phpMyAdmin or use given SQL code below
+   //CREATE DATABASE databasename;
+```bash
+CREATE DATABASE merchant; 
+```
+3. Create Table for the above database from phpMyAdmin or use given SQL code below
+```
+
+```
+
+
+#To run this application locally, follow these steps:
 
 1. Clone the repository:
 
