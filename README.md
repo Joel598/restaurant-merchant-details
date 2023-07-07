@@ -1,6 +1,3 @@
-# restaurant-merchant-details
-A system that collects basic merchant details of Restaurants
-
 # Restaurant Onboarding Application
 
 This is a web application built with React.js, Node.js, and SQL that allows a food delivery company to self-onboard restaurants and collect basic merchant details.
